@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.navbar {
+    background-color: #34495e;
+}
+
+.nav-link {
+    color: #ecf0f1 !important;
+}
+.nav-link:hover {
+    color: #f39c12 !important;
+}
+.swiper-slide img {
+    filter: brightness(0.7);
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+.py-5 {
+    padding: 4rem 0;
+}
+.bg-primary {
+    background-color: #2980b9;
+}
+.bg-light {
+    background-color: #ecf0f1;
+}
+.text-white {
+    color: #fff;
+}
+.btn-outline-light {
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #2980b9;
+}
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.swiper-slide i {
+    color: #2980b9;
+}
+.text-center h5 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.testimonials-slider {
+    margin: 2rem 0;
+}
+footer {
+    background-color: #34495e;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
